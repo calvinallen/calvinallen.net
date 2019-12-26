@@ -67,5 +67,5 @@ EOF
   end
 
   puts "Opening new post in your editor... [#{fullFileName}]"
-  system("start #{fullFileName}")
+  system("code #{fullFileName}")
 end
