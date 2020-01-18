@@ -1,5 +1,5 @@
 ---
-title: "Xamarin Forms Debounce Entry Field"
+title: "Xamarin Forms - Debouncing an Entry Field"
 tags: [dotnet,xamarin,csharp]
 description: "While adding a search-as-you-type input to our Xamarin.Forms application, I wanted to 'debounce' it to save network requests.  Read on to find out how I did it"
 ---
