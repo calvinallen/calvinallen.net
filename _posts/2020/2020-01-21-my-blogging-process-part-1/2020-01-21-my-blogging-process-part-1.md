@@ -34,14 +34,14 @@ I use it, like so, in my [atom.xml](https://github.com/CalvinAllen/calvinallen.n
 
 {% raw %}
 ```xml
-    {% assign cover_image = post.path | prepend: '/' | prepend: site.source %}
-    {% capture cover_image_exists %}{% cover_exists {{ cover_image }} %}{% endcapture %}
+{% assign cover_image = post.path | prepend: '/' | prepend: site.source %}
+{% capture cover_image_exists %}{% cover_exists {{ cover_image }} %}{% endcapture %}
 
-    {% if post.image and cover_image_exists == "true" %}
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ site.url }}{{ post.url }}{{ post.image }}" />
-    {% else %}
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ site.url }}/images/social/headshot.jpg" />
-    {% endif %}
+{% if post.image and cover_image_exists == "true" %}
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ site.url }}{{ post.url }}{{ post.image }}" />
+{% else %}
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ site.url }}/images/social/headshot.jpg" />
+{% endif %}
 ```
 {% endraw %}
 
@@ -49,14 +49,14 @@ and like this, in the [head.html](https://github.com/CalvinAllen/calvinallen.net
 
 {% raw %}
 ```xml
-    {% assign cover_image = page.path | prepend: '/' | prepend: site.source %}
-    {% capture cover_image_exists %}{% cover_exists {{ cover_image }} %}{% endcapture %}
+{% assign cover_image = page.path | prepend: '/' | prepend: site.source %}
+{% capture cover_image_exists %}{% cover_exists {{ cover_image }} %}{% endcapture %}
 
-	{% if page.image and cover_image_exists == "true" %}
-		<meta property="og:image" content="{{ site.url }}{{ page.url }}{{ page.image }}" />
-	{% else %}
-		<meta property="og:image" content="{{ site.url }}/images/social/headshot.jpg" />
-	{% endif %}
+{% if page.image and cover_image_exists == "true" %}
+    <meta property="og:image" content="{{ site.url }}{{ page.url }}{{ page.image }}" />
+{% else %}
+    <meta property="og:image" content="{{ site.url }}/images/social/headshot.jpg" />
+{% endif %}
 ```
 {% endraw %}
 
