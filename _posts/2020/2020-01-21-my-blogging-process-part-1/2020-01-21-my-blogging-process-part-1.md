@@ -32,6 +32,7 @@ This plugin gives me a [custom liquid tag](https://jekyllrb.com/docs/liquid/tags
 
 I use it, like so, in my [atom.xml](https://github.com/CalvinAllen/calvinallen.net/blob/master/atom.xml) file:
 
+{% raw %}
 ```xml
     {% assign cover_image = post.path | prepend: '/' | prepend: site.source %}
     {% capture cover_image_exists %}{% cover_exists {{ cover_image }} %}{% endcapture %}
@@ -42,10 +43,12 @@ I use it, like so, in my [atom.xml](https://github.com/CalvinAllen/calvinallen.n
         <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ site.url }}/images/social/headshot.jpg" />
     {% endif %}
 ```
+{% endraw %}
 
 and like this, in the [head.html](https://github.com/CalvinAllen/calvinallen.net/blob/master/_includes/head.html) file (which gets applied to every single page of the site, not just the posts themselves):
 
-```html
+{% raw %}
+```xml
     {% assign cover_image = page.path | prepend: '/' | prepend: site.source %}
     {% capture cover_image_exists %}{% cover_exists {{ cover_image }} %}{% endcapture %}
 
@@ -55,6 +58,7 @@ and like this, in the [head.html](https://github.com/CalvinAllen/calvinallen.net
 		<meta property="og:image" content="{{ site.url }}/images/social/headshot.jpg" />
 	{% endif %}
 ```
+{% endraw %}
 
 #### [./_plugins/postfiles.rb](https://github.com/CalvinAllen/calvinallen.net/blob/master/_plugins/postfiles.rb)
 
