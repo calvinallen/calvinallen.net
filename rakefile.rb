@@ -42,6 +42,8 @@ tags: [#{postTagsArray.join(",")}]
 description: "#{postDescriptionInput}"
 ---
 
+This post, "#{postTitleInput}", first appeared on [https://www.calvinallen.net/#{postTitleClean}](https://www.calvinallen.net/#{postTitleClean})
+
 <TYPE YO POST HERE, AND DON'T FORGET THE COVER IMAGE!>
 EOF
 
