@@ -1,7 +1,7 @@
 ---
 title: "C# 8.0 - Switch Expressions"
 tags: [csharp,language,dotnet]
-description: "Switch "expressions" are a more concise version of a switch "statement" that was released in C# 8.0.  Let's take a look!"
+description: "Switch 'expressions' are a more concise version of a switch 'statement' that was released in C# 8.0.  Let's take a look!"
 ---
 
 > This post, "C# 8.0 - Switch Expressions", first appeared at [https://www.calvinallen.net/c-8-switch-expressions](https://www.calvinallen.net/c-8-switch-expressions)
