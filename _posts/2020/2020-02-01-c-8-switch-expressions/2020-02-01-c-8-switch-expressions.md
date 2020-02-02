@@ -45,7 +45,7 @@ In C# 8.0, we can make this a little more concise, and, in my opinion, easier to
 ```csharp
 public ICarService CarMakeFactory(CarMake make)
 {
-    make switch
+    return make switch
     {
         CarMake.Chevrolet   => new ChevroletService() as ICarService,
         CarMake.Ford        => new FordService(),
