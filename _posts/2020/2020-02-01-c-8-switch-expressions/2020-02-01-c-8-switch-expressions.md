@@ -47,7 +47,7 @@ public ICarService CarMakeFactory(CarMake make)
 {
     make switch
     {
-        CarMake.Chevrolet   => new ChevroletService(),
+        CarMake.Chevrolet   => new ChevroletService() as ICarService,
         CarMake.Ford        => new FordService(),
         CarMake.Dodge       => new DodgeService(),
         CarMake.Tesla       => new TeslaService(),
