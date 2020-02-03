@@ -6,7 +6,7 @@ description: "Switch 'expressions' are a more concise version of a switch 'state
 
 > This post, "C# 8.0 - Switch Expressions", first appeared at [https://www.calvinallen.net/c-8-switch-expressions](https://www.calvinallen.net/c-8-switch-expressions)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yLJl4bJtoMQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% youtube yLJl4bJtoMQ %}
 
 In C# 8.0, a new form of "switch" was introduced.  While similar, you'll find that this new "switch expression" is more concise than it's "switch statement" counterpart as it does not require all the various keywords (`case`, `break`, `default`, etc.).
 
