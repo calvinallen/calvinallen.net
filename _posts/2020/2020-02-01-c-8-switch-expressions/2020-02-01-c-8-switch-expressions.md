@@ -53,7 +53,7 @@ public ICarService CarMakeFactory(CarMake make)
         CarMake.Ford        => new FordService(),
         CarMake.Dodge       => new DodgeService(),
         CarMake.Tesla       => new TeslaService(),
-        _                   => throw new ArgumentException(message: "Invalid value for CarMake", paramName: nameof(make));
+        _                   => throw new ArgumentException(message: "Invalid value for CarMake", paramName: nameof(make))
     };
 }
 ```
