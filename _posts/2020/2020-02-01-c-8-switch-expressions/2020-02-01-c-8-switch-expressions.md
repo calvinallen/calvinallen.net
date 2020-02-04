@@ -38,7 +38,8 @@ public ICarService CarMakeFactory(CarMake make)
         case CarMake.Tesla:
             return new TeslaService();
         default:
-            throw new ArgumentException(message: "Invalid value for CarMake", paramName: nameof(make));    }
+            throw new ArgumentException(message: "Invalid value for CarMake", paramName: nameof(make));    
+    }
 }
 ```
 
@@ -49,7 +50,7 @@ public ICarService CarMakeFactory(CarMake make)
 {
     return make switch
     {
-        CarMake.Chevrolet   => new ChevroletService() as ICarService,
+        CarMake.Chevrolet   => new ChevroletService(),
         CarMake.Ford        => new FordService(),
         CarMake.Dodge       => new DodgeService(),
         CarMake.Tesla       => new TeslaService(),
