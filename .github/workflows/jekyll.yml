@@ -29,3 +29,4 @@ jobs:
       with:
         source_dir: _site
         container_name: $web
+        connection_string: ${{secrets.AZURE_BLOB_CONNECTIONSTRING}}
