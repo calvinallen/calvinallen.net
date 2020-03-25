@@ -2,8 +2,8 @@ name: Jekyll Build and Deployment
 
 on:
   schedule:
-    # 3am UTC = 7am EST (for now...stupid DST
-    - cron: 0 3 * * *
+    # 11am UTC = 7am EST (for now...stupid DST
+    - cron: 0 11 * * *
   push:
     branches: 
       - master
