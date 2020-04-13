@@ -17,6 +17,10 @@ github_repo_url: https://github.com/calvinallen/calvinallen.net
 stackoverflow_url: https://luv2.dev/stackoverflow
 twitter_url: https://luv2.dev/twitter
 
+# Disqus Comments
+disqus_short_name: calvinallen
+disqus_show_comment_count: true
+
 # Google Analytics
 google_analytics_tracking_id: UA-48089969-1
 
@@ -43,6 +47,7 @@ defaults:
     values:
       layout: null 
       sitemap: false
+      comments: false
       sharing: false
       image: null  
       image_alt: null  
@@ -60,6 +65,7 @@ defaults:
     values:
       layout: "post"
       sitemap: true
+      comments: true
       sharing: true
       image: "cover.png"
       image_alt: "cover.jpg"
