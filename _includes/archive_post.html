@@ -18,10 +18,7 @@
 				{% include post/tags.html %}
 			</span>
 			{% endif %}
-			
-			{% if site.disqus_short_name and post.comments == true and site.disqus_show_comment_count == true %}
-		    {% include post/comments_link.html %}
-		    {% endif %}
-		    <span class="edit">{% include post/edit.html %}</span>
+
+			<span class="edit">{% include post/edit.html %}</span>
 		</div>
 	</li>
