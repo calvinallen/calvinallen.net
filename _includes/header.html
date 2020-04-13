@@ -13,9 +13,6 @@
 <br />
 <nav id="sub-nav">
 	<div class="social">
-		{% if site.email %}
-			<a class="email" href="mailto:{{ site.email }}" title="Email">Email</a>
-		{% endif %}
 		{% if site.twitter_url %}
 			<a class="twitter" href="{{ site.twitter_url }}" title="Twitter">Twitter</a>
 		{% endif %}
@@ -30,9 +27,6 @@
 		{% endif %}
 		{% if site.rss_url %}
 			<a class="rss" href="{{ site.rss_url }}" title="RSS">RSS</a>
-		{% endif %}
-		{% if site.patreon_url %}
-			<a class="patreon" href="{{ site.patreon_url }}" title="Become a patron">Patreon</a>
 		{% endif %}
 	</div>
 </nav>
