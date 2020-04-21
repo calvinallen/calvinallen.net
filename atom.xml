@@ -73,13 +73,16 @@
 	  	  <summary type="html">{{ post.excerpt | strip_html | normalize_whitespace | xml_escape }}</summary>
       {% endif %}
 
-      {% assign cover_image = post.path | prepend: '/' | prepend: site.source %}
-      {% capture cover_image_exists %}{% cover_exists {{ cover_image }} %}{% endcapture %}
+      {% assign post_path = site.source | append: '/' | append: post.path %}
+      {% capture cover_image_exists %}{% cover_exists {{ post_path }},{{ post.image }} %}{% endcapture %}
+      {% capture alt_cover_image_exists %}{% cover_exists {{ post_path }},{{ post.image_alt }} %}{% endcapture %}
 
       {% if post.image and cover_image_exists == "true" %}
         <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ site.url }}{{ post.url }}{{ post.image }}" />
+      {% elsif post.image_alt and alt_cover_image_exists == "true" %}
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ site.url }}{{ post.url }}{{ post.image_alt }}" />        
       {% else %}
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ site.url }}/images/social/headshot.jpg" />
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ site.url }}/images/social/headshot-cover.png" />
       {% endif %}
     </entry>
   {% endfor %}

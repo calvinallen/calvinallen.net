@@ -42,9 +42,12 @@ tags: [#{postTagsArray.join(",")}]
 description: "#{postDescriptionInput}"
 ---
 
-This post, "#{postTitleInput}", first appeared on [https://www.calvinallen.net/#{postTitleClean}](https://www.calvinallen.net/#{postTitleClean})
-
 <TYPE YO POST HERE, AND DON'T FORGET THE COVER IMAGE!>
+
+---
+
+>This post, "#{postTitleInput}", first appeared on [https://www.calvinallen.net/#{postTitleClean}](https://www.calvinallen.net/#{postTitleClean})
+
 EOF
 
   yearPath = File.expand_path(File.join(Dir.pwd, configatron.posts_dir, postYear.to_s))

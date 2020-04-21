@@ -45,6 +45,7 @@ defaults:
       sitemap: false
       sharing: false
       image: null  
+      image_alt: null  
   -
     scope:
       path: "page"
@@ -60,4 +61,5 @@ defaults:
       layout: "post"
       sitemap: true
       sharing: true
-      image: "cover.jpg"
+      image: "cover.png"
+      image_alt: "cover.jpg"
