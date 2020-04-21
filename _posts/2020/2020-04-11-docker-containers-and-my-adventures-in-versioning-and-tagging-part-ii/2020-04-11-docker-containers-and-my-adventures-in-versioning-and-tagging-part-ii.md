@@ -24,7 +24,7 @@ Okay, now what?  Twitter comes through again!
 
 [Kelly Andrews](https://twitter.com/kellyjandrews) comes through with his preferred method:
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I usually tag the container with the commit sha. I like the branch tag idea though.</p>&mdash; Kelly J Andrews (@kellyjandrews) <a href="https://twitter.com/kellyjandrews/status/1247209054218391553?ref_src=twsrc%5Etfw">April 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I usually tag the container with the commit sha. I like the branch tag idea though.</p>&mdash; Kelly J Andrews (@kellyjandrews) <a href="https://twitter.com/kellyjandrews/status/1247209054218391553?ref_src=twsrc%5Etfw">April 6, 2020</a></blockquote>
 
 That makes sense.  Instead of tagging the git SHA with the build id, tag the container with the commit SHA.  Sounds great, let's give it a go.
 
