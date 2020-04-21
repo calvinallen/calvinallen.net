@@ -6,7 +6,7 @@
   <generator uri="https://jekyllrb.com/" version="{{ jekyll.version }}">Jekyll</generator>
   <link href="{{ page.url | absolute_url }}" rel="self" type="application/atom+xml" />
   <link href="{{ '/' | absolute_url }}" rel="alternate" type="text/html" {% if site.lang %}hreflang="{{ site.lang }}" {% endif %}/>
-  <updated>{{ site.time | date: "%Y-%m-%d %H:%M:%S-400" | date_to_xmlschema }}</updated>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>{{ '/' | absolute_url | xml_escape }}</id>
 
   {% if site.title %}
