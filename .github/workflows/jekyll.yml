@@ -27,6 +27,18 @@ jobs:
         bundle install
         bundle exec jekyll build    
       
+    - name: Download Twitter Widget File To Site
+      uses: carlosperate/download-file-action@v1.0.3
+      with:
+        file-url: https://platform.twitter.com/widgets.js
+        location: ./_site/js/
+
+    - name: Download Google Analytics File To Site
+      uses: carlosperate/download-file-action@v1.0.3
+      with:
+        file-url: https://ssl.google-analytics.com/ga.js
+        location: ./_site/js/
+
     - name: Upload to Azure
       uses: bacongobbler/azure-blob-storage-upload@v1.0.0
       with:
