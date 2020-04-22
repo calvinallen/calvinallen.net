@@ -64,3 +64,4 @@ defaults:
       image: "cover.png"
       image_alt: "cover.jpg"
       excerpt_separator: "<!--more-->"
+      youtube: null
