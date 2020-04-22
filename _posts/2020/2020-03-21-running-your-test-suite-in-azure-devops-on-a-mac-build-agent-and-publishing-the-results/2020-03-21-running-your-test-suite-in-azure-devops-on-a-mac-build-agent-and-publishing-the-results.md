@@ -1,6 +1,6 @@
 ---
 title: "Running Your Test Suite in Azure DevOps On A Mac Build Agent And Publishing The Results"
-tags: [devops,mac,testing]
+tags: [devops,macos,testing]
 description: "How do you run your test suite in Azure DevOps, while using a Mac build agent, and then publish the results?  Read on to find out!"
 ---
 

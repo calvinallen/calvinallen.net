@@ -1,6 +1,6 @@
 ---
 title: "The Software Developers' Dictionary - Boxing"
-tags: [dictionary,sdd,boxing]
+tags: [dictionary,sdd]
 description: "Let's take a look at the definition, and some examples, of what 'Boxing' really means"
 ---
 

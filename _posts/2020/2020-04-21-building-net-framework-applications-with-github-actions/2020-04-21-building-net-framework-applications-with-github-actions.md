@@ -6,6 +6,8 @@ description: "After spending way too much time figuring it all out, I now have a
 
 In this post, I'm going to show you how I finally managed to configure a Github action to build my .NET Framework web application and then deploy it to Azure.  It took way too long, so I hope this helps somebody else out there save some time.
 
+<!--more-->
+
 To get started, I didn't know how to get started.  I couldn't find an action template to do this, like you can for .NET Core.  Luckily, I put out a tweet and got a response:
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">Just use (windows-latest) instead of (linux-latest) as the runner.<br>There is no need to install .net framework. That has all of the versions insides.<br>Thus you can build applications that either targets netapp[xx] or netcoreapp[x.x]<a href="https://t.co/SDiESG5Ye6">https://t.co/SDiESG5Ye6</a><a href="https://t.co/1Ssd2dwyUB">https://t.co/1Ssd2dwyUB</a></p>&mdash; Mohammad Javad Ebrahimi (@mjebrahimi72) <a href="https://twitter.com/mjebrahimi72/status/1252216773811875842?ref_src=twsrc%5Etfw">April 20, 2020</a></blockquote>

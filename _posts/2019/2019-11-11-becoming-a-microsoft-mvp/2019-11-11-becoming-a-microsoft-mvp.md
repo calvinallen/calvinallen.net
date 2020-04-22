@@ -1,6 +1,6 @@
 ---
 title: "Becoming a Microsoft MVP"
-tags: [dotnet,mvp]
+tags: [dotnet,mvp,csharp]
 description: "I was awarded MVP status by Microsoft in Developer Technologies on November 1, 2019!  This is my story...."
 ---
 

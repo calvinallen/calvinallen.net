@@ -1,8 +1,6 @@
 ---
 title: "Creating a default Fiddler rule for Localhost traffic only"
 tags: [programming, fiddler]
-redirect_from:
-  - /archive/2018/05/30/creating-a-default-fiddler-rule-for-localhost-traffic-only
 ---
 
 Fiddler is a fantastic tool for assisting in debugging HTTP request/responses.

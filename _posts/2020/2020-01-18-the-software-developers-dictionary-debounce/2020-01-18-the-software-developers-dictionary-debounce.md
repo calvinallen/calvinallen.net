@@ -1,6 +1,6 @@
 ---
 title: "The Software Developers' Dictionary - Debounce"
-tags: [sdd,dictionary,debounce]
+tags: [sdd,dictionary]
 description: "Let's take a look at the definition of 'debounce', a term used in software development, that doesn't exist in modern language dictionaries."
 ---
 

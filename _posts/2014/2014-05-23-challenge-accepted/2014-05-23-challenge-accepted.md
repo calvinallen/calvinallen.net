@@ -1,8 +1,6 @@
 ---
 title: "Challenge, Accepted!"
-tags: [career]
-redirect_from:
-  - /archive/2014/05/23/challenge-accepted
+tags: [career, meta]
 ---
 
 The last few weeks have been a little stressful here at the Allen household due to the job situation, but things are turning around!

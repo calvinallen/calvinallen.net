@@ -1,8 +1,6 @@
 ---
 title: "Cleaning up an Inaccessible VirtualBox Machine"
 tags: [virtualbox]
-redirect_from:
-  - /archive/2014/05/20/cleaning-up-an-inaccessible-virtualbox-machine
 ---
 
 I had a really difficult time coming up with a title for this post, but essentially what I'm trying to convey is:

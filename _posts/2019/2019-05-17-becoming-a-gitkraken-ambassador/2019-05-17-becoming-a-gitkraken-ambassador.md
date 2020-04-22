@@ -1,6 +1,6 @@
 ---
 title: "Becoming a GitKraken Ambassador"
-tags: [gitkraken,git,ambassador,bitbucket,github,azure-devops]
+tags: [gitkraken,meta,ambassador]
 description: "I've been accepted into the GitKraken Ambassadorship program - let's discuss!"
 ---
 

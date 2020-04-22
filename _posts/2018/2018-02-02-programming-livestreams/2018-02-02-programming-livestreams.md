@@ -1,8 +1,6 @@
 ---
 title: "Programming Live Streams"
-tags: [programming, streaming]
-redirect_from:
-  - /archive/2018/02/02/programming-livestreams
+tags: [programming, streaming, twitch]
 ---
 
 Recently, I've become somewhat hooked on watching a few people live code various things on Twitch.  

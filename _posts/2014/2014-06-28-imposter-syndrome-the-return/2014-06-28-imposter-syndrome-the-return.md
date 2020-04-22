@@ -1,8 +1,6 @@
 ---
 title: "Imposter Syndrome - The Return"
-tags: [career, imposter-syndrome]
-redirect_from:
-  - /archive/2014/06/28/imposter-syndrome-the-return
+tags: [career, meta, impostersyndrome]
 ---
 
 As most of you know, I recently started a new job with Heuristic Solutions working on their LearningBuilder product. I’ve been with them now for about a month, and up until about last week, things were going great. Then, out of nowhere, The Imposter Monster made its unwelcoming return.

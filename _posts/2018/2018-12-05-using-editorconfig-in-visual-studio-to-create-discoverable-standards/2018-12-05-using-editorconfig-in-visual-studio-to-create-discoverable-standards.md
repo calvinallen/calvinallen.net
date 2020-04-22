@@ -1,6 +1,6 @@
 ---
 title: "Using .editorconfig in Visual Studio to create discoverable standards"
-tags: [.net, c#, visual-studio, csadvent]
+tags: [dotnet, csharp, visualstudio, csadvent]
 description: "Using .editorconfig in Visual Studio to create discoverable standards"
 ---
 

@@ -1,8 +1,6 @@
 ---
 title: "How I'm Running My Blog - Part I"
 tags: [meta]
-redirect_from:
-  - /archive/2017/10/13/how-im-running-my-blog
 ---
 
 This post is pretty meta, actually, but I found it a little too interesting not to publish.

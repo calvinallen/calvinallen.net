@@ -1,6 +1,6 @@
 ---
 title: "C# 8.0 - Switch Expressions"
-tags: [csharp,language,dotnet]
+tags: [csharp,dotnet]
 description: "Switch 'expressions' are a more concise version of a switch 'statement' that was released in C# 8.0.  Let's take a look!"
 ---
 
