@@ -5,6 +5,26 @@ require 'configatron'
 
 configatron.posts_dir       =     './_posts'
 
+task :default do
+  puts ""
+  puts "   Run 'rake -T' for full task listing"
+  puts "" 
+end
+
+desc "Runs the site locally"
+task :serve do
+  begin
+    system("bundle exec jekyll serve")
+  rescue SystemExit, Interrupt
+    #do nothing here
+  end
+end
+
+desc "Builds the site locally"
+task :build do
+  system("bundle exec jekyll build")
+end
+
 desc "Adds the proper structure for a new post into the site based on your input"
 task :new  do
   puts "What is the title of the new post?"
@@ -22,22 +42,22 @@ task :new  do
   puts "What is a short description of this new post?"
   postDescriptionInput = $stdin.gets.chomp
 
-  puts "What is the date of the new post?"
-  postDateInput = $stdin.gets.chomp
-  postDate = Date.parse(postDateInput)
-  postYear = postDate.year
-  postFilename = "#{postDate}-#{postTitleClean}"
-
   puts "What tags would you like to associate with the post? (comma-delimited)"
   postTagsInput = $stdin.gets.chomp
   postTagsArray = postTagsInput.split(/\s*,\s*/)
   postTagsArray.map! { |a| a.downcase }
-  postTagsArray.map! { |a| a.gsub(/[ ]/, '-')}
+  postTagsArray.map! { |a| a.gsub(/[ ]/, '')}
   postTagsArray.map! { |a| a.gsub(/[^A-Za-z\,\-]/, '')}
-    
+
+  now = DateTime.now
+  postDate = now.to_date #.strptime("%Y-%m-%d")
+  postYear = postDate.year
+  postFilename = "#{postDate}-#{postTitleClean}"
+
   postLiquid = <<EOF
 ---
 title: "#{postTitleInput}"
+date: "#{now}"
 tags: [#{postTagsArray.join(",")}]
 description: "#{postDescriptionInput}"
 ---
