@@ -30,7 +30,7 @@ jobs:
     - name: Deploy to Netlify
       uses: nwtgck/actions-netlify@v1.0
       with:
-        publish_dir: './_site'
+        publish-dir: './_site'
       env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
