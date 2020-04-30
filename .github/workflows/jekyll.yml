@@ -27,23 +27,10 @@ jobs:
         bundle install
         bundle exec jekyll build    
 
-    - name: Upload to Azure
-      uses: bacongobbler/azure-blob-storage-upload@v1.0.0
+    - name: Deploy to Netlify
+      uses: nwtgck/actions-netlify@v1.0
       with:
-        source_dir: _site
-        container_name: $web
-        connection_string: ${{secrets.AZURE_BLOB_CONNECTIONSTRING}}
-
-    - name: Azure Login
-      uses: Azure/login@v1
-      with:
-        # Paste output of `az ad sp create-for-rbac` as value of secret variable: AZURE_CREDENTIALS
-        creds: ${{secrets.AZURE_CREDENTIALS}}
-            
-    - name: Azure CLI Action
-      uses: Azure/cli@v1.0.0
-      with:
-        # Specify the script here
-        inlineScript: |
-          az extension add --name front-door
-          az network front-door purge-endpoint --resource-group calvinallen.net --name calvinallen --content-paths "/"
+        publish_dir: './_site'
+      env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
