@@ -32,7 +32,7 @@ jobs:
       with:
         publish-dir: './_site'
         production-branch: master
-        deploy-message: ${{ github.event.commits[][message] }}
+        deploy-message: ${{ join(github.event.commits.*.message) }}
       env:
         NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
         NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
