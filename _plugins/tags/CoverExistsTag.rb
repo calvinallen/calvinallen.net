@@ -3,10 +3,8 @@ require "pathname"
 
 module Jekyll
     class CoverExistsTag < Liquid::Tag
-
         def initialize(tag_name, params, tokens)
             super
-
             @args = self.split_params(params)
             @page = @args[0]
             @image = @args[1]
