@@ -65,7 +65,7 @@ In our original action, we were already logging into Azure and deploying our app
     slot-name: production
 ```
 
-The problem is, as listed, this step will ALWAYS run, and I only want this to happen when I've pushed a tag that triggered the action.  How do we do that?  
+The problem is, as listed, these steps will ALWAYS run, and I only want them to when I've pushed a tag that (successfully) triggers the action.  How do we do that?  
 
 We use a conditional on the two steps, and a built-in function from GitHub -
 
