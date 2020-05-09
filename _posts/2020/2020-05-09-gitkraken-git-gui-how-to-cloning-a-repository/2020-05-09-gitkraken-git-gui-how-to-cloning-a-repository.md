@@ -15,7 +15,7 @@ There are three ways in the GitKraken Git GUI to "initiate" the cloning of a rep
 
 From the `File` menu, click on `Clone Repo`.  Alternatively, this menu item also comes with a keyboard shortcut of `CTRL + N`, if you prefer keyboard shortcuts
 
-![File | Clone Repo](./file-clone-repo.png)
+![File Clone Repo](./file-clone-repo.png)
 
 ### 2. "New Tab" tab
 
