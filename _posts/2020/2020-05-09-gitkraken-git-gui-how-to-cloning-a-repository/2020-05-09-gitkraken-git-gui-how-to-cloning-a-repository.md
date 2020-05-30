@@ -6,6 +6,8 @@ description: "In this tutorial, I'm going to show you how to use the GitKraken G
 youtube: "https://www.youtube.com/embed/Yprw5ttuJLk"
 ---
 
+
+
 If you're new to the GitKraken Git GUI or interested in it, one of the first things you'll want to do after installing it is clone a repository so you can get to work.
 
 There are three ways in the GitKraken Git GUI to "initiate" the cloning of a repository.  Each one of these items will lead to the same "Repository Management" popup dialog, with the "Clone" section selected, which I will show you at the end.
