@@ -65,7 +65,7 @@ The "Call AzRebrandly" Azure Function mentioned above uses an Azure CosmosDB in 
 ```json
 { 
   "shortUrl": "https://luv2.dev/57l", 
-  "destinationUrl": "https://www.calvinallen.net/my-blogging-process-part-1/"
+  "destinationUrl": "https://www.codingwithcalvin.net/my-blogging-process-part-1/"
 }
 ```
 

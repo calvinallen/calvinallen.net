@@ -5,7 +5,7 @@ tags: [gitkraken,git]
 description: "In this post, we're going to look at how you add new files - and remove them - to be committed in the GitKraken Git GUI."
 ---
 
-In my previous post, "[GitKraken Git GUI How-To: Cloning a Repository](https://www.calvinallen.net/gitkraken-git-gui-how-to-cloning-a-repository/)", we went over how to do just that. Now that we have a repository to work with, we need to make some changes! Maybe that involves changing existing files, or adding new ones. However, just editing or creating files in the repository doesn't necessarily mean they'll be committed, pushed (future topics, I promise), and available for other folks to work with.
+In my previous post, "[GitKraken Git GUI How-To: Cloning a Repository](https://www.codingwithcalvin.net/gitkraken-git-gui-how-to-cloning-a-repository/)", we went over how to do just that. Now that we have a repository to work with, we need to make some changes! Maybe that involves changing existing files, or adding new ones. However, just editing or creating files in the repository doesn't necessarily mean they'll be committed, pushed (future topics, I promise), and available for other folks to work with.
 
 In *this* post, I'm going to show you how to add and remove files - or, in git lingo, stage and unstage files.  
 
@@ -94,4 +94,4 @@ If you’re interested in downloading the GitKraken Git GUI client and taking it
 
 ---
 
->This post, "GitKraken Git GUI How-To: Adding Files", first appeared on [https://www.calvinallen.net/gitkraken-git-gui-how-to-add-remove-files](https://www.calvinallen.net/gitkraken-git-gui-how-to-add-remove-files)
+>This post, "GitKraken Git GUI How-To: Adding Files", first appeared on [https://www.codingwithcalvin.net/gitkraken-git-gui-how-to-add-remove-files](https://www.codingwithcalvin.net/gitkraken-git-gui-how-to-add-remove-files)

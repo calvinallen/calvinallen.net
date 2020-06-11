@@ -75,4 +75,4 @@ I hope this helps somebody out there until we're able to delete these bad servic
 
 ---
 
->This post, "Deleting Failed AzureDevOps Service Connections", first appeared on [https://www.calvinallen.net/deleting-failed-azuredevops-service-connections](https://www.calvinallen.net/deleting-failed-azuredevops-service-connections)
+>This post, "Deleting Failed AzureDevOps Service Connections", first appeared on [https://www.codingwithcalvin.net/deleting-failed-azuredevops-service-connections](https://www.codingwithcalvin.net/deleting-failed-azuredevops-service-connections)

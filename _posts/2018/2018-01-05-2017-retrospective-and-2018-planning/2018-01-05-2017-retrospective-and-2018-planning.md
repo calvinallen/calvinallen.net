@@ -16,7 +16,7 @@ cancelled all my accounts (deleted in cases where that's an option), and just en
 
 In the latter part of 2017, it gets busy with the holidays and travel - but we did manage to pay off some more debt before
 the end of the year, which was awesome.  It was also during this time, I decided to get back online and get back to business
-with blogging, twitter, etc.  I did decide, right before December, that I would participate in the [2017 C# Advent](https://crosscuttingconcerns.com/The-First-C-Advent-Calendar) that my buddy [Matt Groves](https://www.twitter.com/mgroves) coordinated.  I wrote a "quasi" C# post (the code examples were written in it :) ), but was primarily about [Visual Studio and Live Unit Testing](https://www.calvinallen.net/archive/2017/12/24/live-unit-testing-in-visual-studio-2017/) feature.
+with blogging, twitter, etc.  I did decide, right before December, that I would participate in the [2017 C# Advent](https://crosscuttingconcerns.com/The-First-C-Advent-Calendar) that my buddy [Matt Groves](https://www.twitter.com/mgroves) coordinated.  I wrote a "quasi" C# post (the code examples were written in it :) ), but was primarily about [Visual Studio and Live Unit Testing](https://www.codingwithcalvin.net/archive/2017/12/24/live-unit-testing-in-visual-studio-2017/) feature.
 
 That was pretty much 2017 in a nutshell.
 

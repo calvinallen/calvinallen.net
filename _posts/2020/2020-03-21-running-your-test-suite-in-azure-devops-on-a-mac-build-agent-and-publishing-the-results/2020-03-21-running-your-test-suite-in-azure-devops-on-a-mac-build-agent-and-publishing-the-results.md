@@ -4,7 +4,7 @@ tags: [devops,macos,testing]
 description: "How do you run your test suite in Azure DevOps, while using a Mac build agent, and then publish the results?  Read on to find out!"
 ---
 
-This post, "Running Your Test Suite in Azure DevOps On A Mac Build Agent And Publishing The Results", first appeared on [https://www.calvinallen.net/running-your-test-suite-in-azure-devops-on-a-mac-build-agent-and-publishing-the-results](https://www.calvinallen.net/running-your-test-suite-in-azure-devops-on-a-mac-build-agent-and-publishing-the-results)
+This post, "Running Your Test Suite in Azure DevOps On A Mac Build Agent And Publishing The Results", first appeared on [https://www.codingwithcalvin.net/running-your-test-suite-in-azure-devops-on-a-mac-build-agent-and-publishing-the-results](https://www.codingwithcalvin.net/running-your-test-suite-in-azure-devops-on-a-mac-build-agent-and-publishing-the-results)
 
 I've been working on a Xamarin.Forms application for the last few months, and finally got to the point where I needed our CI system (in this case, Azure DevOps), to run our test suite and publish the results.  Sounds pretty easy, huh?  Well, maybe for some, but I struggled with it for a few hours because I needed to use a Mac Build Agent for the pipeline.
 

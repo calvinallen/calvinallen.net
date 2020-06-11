@@ -127,5 +127,5 @@ Thanks for reading!
 
 ---
 
-> This post, "Building .NET Framework Applications with Github Actions", first appeared on [https://www.calvinallen.net/building-net-framework-applications-with-github-actions](https://www.calvinallen.net/building-net-framework-applications-with-github-actions)
+> This post, "Building .NET Framework Applications with Github Actions", first appeared on [https://www.codingwithcalvin.net/building-net-framework-applications-with-github-actions](https://www.codingwithcalvin.net/building-net-framework-applications-with-github-actions)
 

@@ -14,7 +14,7 @@ For me, it's about trying to get my posts in front of more people, because I don
 * [GitHub](https://www.github.com) (hosting the code, and allowing it to be OSS - yes, you can submit a PR to one of my posts 😊)
 * [Netlify](https://www.netlify.com) (domain host).  
 
-The best part?  It's all 100% free (besides buying/renewing the domain name).  And, to be completely honest, I enjoy this setup.  I can write a post in markdown and push the code to GitHub.  Once there, [Netlify](https://www.netlify.com) is "notified" of the code change, pulls the latest from [my GitHub repository](https://www.github.com/calvinallen/calvinallen.net), builds, and then deploys it.  Importing the posts to [my dev.to profile](https://www.dev.to/calvinallen) is automatic, I just have to manually "publish" them once there. 
+The best part?  It's all 100% free (besides buying/renewing the domain name).  And, to be completely honest, I enjoy this setup.  I can write a post in markdown and push the code to GitHub.  Once there, [Netlify](https://www.netlify.com) is "notified" of the code change, pulls the latest from [my GitHub repository](https://www.github.com/calvinallen/codingwithcalvin.net), builds, and then deploys it.  Importing the posts to [my dev.to profile](https://www.dev.to/calvinallen) is automatic, I just have to manually "publish" them once there. 
 
 All in all, it's a beautiful thing. 
 

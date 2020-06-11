@@ -99,4 +99,4 @@ Thanks, dear reader, hope you enjoy unleashing your inner Kraken!
 
 ---
  
-> This post, "GitKraken Git GUI How-To: Cloning a Repository", first appeared on [https://www.calvinallen.net/gitkraken-git-gui-how-to-cloning-a-repository](https://www.calvinallen.net/gitkraken-git-gui-how-to-cloning-a-repository)
+> This post, "GitKraken Git GUI How-To: Cloning a Repository", first appeared on [https://www.codingwithcalvin.net/gitkraken-git-gui-how-to-cloning-a-repository](https://www.codingwithcalvin.net/gitkraken-git-gui-how-to-cloning-a-repository)

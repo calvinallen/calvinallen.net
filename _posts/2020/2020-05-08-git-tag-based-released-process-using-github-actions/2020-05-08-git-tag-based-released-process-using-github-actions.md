@@ -5,7 +5,7 @@ tags: [csharp,git,github]
 description: "In this post, we're going to take a look at using Git Tags and Conditional Steps in GitHub Actions to create a release process."
 ---
 
-In a [previous post](https://www.calvinallen.net/building-net-framework-applications-with-github-actions), I discussed how I was able to get a .NET Framework application built using GitHub actions.  Go check out that post for the full YAML'y goodness.
+In a [previous post](https://www.codingwithcalvin.net/building-net-framework-applications-with-github-actions), I discussed how I was able to get a .NET Framework application built using GitHub actions.  Go check out that post for the full YAML'y goodness.
 
 In this post, however, I want to explain how I modified that original GitHub Action to take advantage of git tags to automate the release (of that application).
 
@@ -105,4 +105,4 @@ Thanks again, dear reader.  I hope this is useful!
 
 ---
 
->This post, "Git Tag Based Released Process Using GitHub Actions", first appeared on [https://www.calvinallen.net/git-tag-based-released-process-using-github-actions](https://www.calvinallen.net/git-tag-based-released-process-using-github-actions)
+>This post, "Git Tag Based Released Process Using GitHub Actions", first appeared on [https://www.codingwithcalvin.net/git-tag-based-released-process-using-github-actions](https://www.codingwithcalvin.net/git-tag-based-released-process-using-github-actions)

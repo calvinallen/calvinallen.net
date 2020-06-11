@@ -6,7 +6,7 @@ description: "While adding a search-as-you-type input to our Xamarin.Forms appli
 
 > Curious what "debounce" means?
 >
->[Check out my previous entry to the Software Developers' Dictionary to find out!](https://www.calvinallen.net/the-software-developers-dictionary-debounce/)
+>[Check out my previous entry to the Software Developers' Dictionary to find out!](https://www.codingwithcalvin.net/the-software-developers-dictionary-debounce/)
 
 I recently had a requirement to add a search field to my Xamarin.Forms / Prism application at work.  This application has no local data, and for every search, hits an API endpoint that returns some JSON.  Getting the search to work was easy, but then it hit me - uh oh - I don't want to do that after *every* keystroke!
 
