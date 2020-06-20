@@ -1,4 +1,4 @@
-# calvinallen / calvinallen.net
+# calvinallen / codingwithcalvin.net
 
 This is the repo for my blog, which accepts pull requests/issues/etc.
 

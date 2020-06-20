@@ -67,4 +67,4 @@ Let me know what you think about this new (and improved!) way of writing switch 
 
 ---
 
-> This post, "C# 8.0 - Switch Expressions", first appeared at [https://www.calvinallen.net/c-8-switch-expressions](https://www.calvinallen.net/c-8-switch-expressions)
+> This post, "C# 8.0 - Switch Expressions", first appeared at [https://www.codingwithcalvin.net/c-8-switch-expressions](https://www.codingwithcalvin.net/c-8-switch-expressions)

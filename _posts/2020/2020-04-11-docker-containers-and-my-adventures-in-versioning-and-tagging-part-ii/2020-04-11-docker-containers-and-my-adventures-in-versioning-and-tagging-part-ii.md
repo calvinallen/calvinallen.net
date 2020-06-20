@@ -6,7 +6,7 @@ description: "What's the best way to version, and tag, your code and containers 
 
 Part II of II
 
-> [See Part I here](https://www.calvinallen.net/docker-containers-and-my-adventures-in-versioning-and-tagging/)
+> [See Part I here](https://www.codingwithcalvin.net/docker-containers-and-my-adventures-in-versioning-and-tagging/)
 
 In my previous post, I went through how we set up versioning for our assemblies during local development, and also during our Azure DevOps pipelines.  In this post, I want to share how we did "tagging" - both to the repository, and to the docker containers.
 
@@ -91,4 +91,4 @@ Hope you enjoyed tagging along in my adventure...get it...tagging?
 
 Until next time, dear reader!
 
->This post, "Docker Containers and my Adventures in Versioning and Tagging - Part II", first appeared on [https://www.calvinallen.net/docker-containers-and-my-adventures-in-versioning-and-tagging-part-ii](https://www.calvinallen.net/docker-containers-and-my-adventures-in-versioning-and-tagging-part-ii)
+>This post, "Docker Containers and my Adventures in Versioning and Tagging - Part II", first appeared on [https://www.codingwithcalvin.net/docker-containers-and-my-adventures-in-versioning-and-tagging-part-ii](https://www.codingwithcalvin.net/docker-containers-and-my-adventures-in-versioning-and-tagging-part-ii)

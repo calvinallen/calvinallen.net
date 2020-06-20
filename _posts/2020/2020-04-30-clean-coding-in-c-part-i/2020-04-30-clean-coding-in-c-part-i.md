@@ -36,5 +36,5 @@ Happy clean coding, dear reader!
 
 ---
 
->This post, "Clean Coding in C# - Part I", first appeared on [https://www.calvinallen.net/clean-coding-in-c-part-i](https://www.calvinallen.net/clean-coding-in-c-part-i)
+>This post, "Clean Coding in C# - Part I", first appeared on [https://www.codingwithcalvin.net/clean-coding-in-c-part-i](https://www.codingwithcalvin.net/clean-coding-in-c-part-i)
 

@@ -70,7 +70,7 @@ It's finally time to *actually* build the solution -
 
 - name: Build Solution
   run: |
-    msbuild.exe EzRep.sln /nologo /nr:false /p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:platform="Any CPU" /p:configuration="Release" /p:PackageLocation="../_build"
+    msbuild.exe EzRep.sln /nologo /nr:false /p:DeployOnBuild=true /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:DeleteExistingFiles=True /p:platform="Any CPU" /p:configuration="Release" /p:PublishUrl="../_build"
 ```
 
 A little long winded there, but first thing is to restore the packages.  I've got a weird setup right now that I didn't even realize until all of this, that I need to go back and research / fix.  It seems like my solution is part way migrated from the old `packages.config` construct and the MSBuild construct, but not entirely.  You may not need this step, specifically, but you might need the `-t:restore` flag for your MSBuild step.  You'll notice we're using that `_build` directory we created earlier for our `PackageLocation`, except its back one directory from the default location, hence the double dot relative directory path - `../_build`
@@ -127,5 +127,5 @@ Thanks for reading!
 
 ---
 
-> This post, "Building .NET Framework Applications with Github Actions", first appeared on [https://www.calvinallen.net/building-net-framework-applications-with-github-actions](https://www.calvinallen.net/building-net-framework-applications-with-github-actions)
+> This post, "Building .NET Framework Applications with Github Actions", first appeared on [https://www.codingwithcalvin.net/building-net-framework-applications-with-github-actions](https://www.codingwithcalvin.net/building-net-framework-applications-with-github-actions)
 

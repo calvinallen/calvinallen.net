@@ -15,4 +15,4 @@ What does this mean?  Well, I'll still be promoting the product, but I'll probab
 If you'd like to try out [GitKraken](https://www.gitkraken.com/git-client), maybe download it and give it a shot?
 [https://www.gitkraken.com/invite/6zb3y67R](https://www.gitkraken.com/invite/6zb3y67R)
 
-If you do, [please let me know what you think](https://www.calvinallen.net/contact)!
+If you do, [please let me know what you think](https://www.codingwithcalvin.net/contact)!
