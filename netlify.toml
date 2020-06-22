@@ -22,3 +22,20 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "https://www.codingwithcalvin.net/docker-containers-and-my-adventures-in-tagging"
+  to = "https://www.codingwithcalvin.net/docker-containers-and-my-adventures-in-versioning-and-tagging/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.codingwithcalvin.net/feed"
+  to = "https://www.codingwithcalvin.net/atom.xml"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "https://www.codingwithcalvin.net/contact"
+  to = "https://www.codingwithcalvin.net/404"
+  status = 301
+  force = true
