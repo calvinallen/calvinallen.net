@@ -21,9 +21,6 @@ twitter_url: https://luv2.dev/twitter
 disqus_short_name: calvinallen
 disqus_show_comment_count: true
 
-# Google Analytics
-google_analytics_tracking_id: UA-48089969-1
-
 # Jekyll Settings
 permalink: /:title/
 paginate: 10
