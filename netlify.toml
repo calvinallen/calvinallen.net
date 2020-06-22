@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "calvinallen.net/*"
+  to = "https://www.codingwithcalvin.net/:splat"
+  status = 301
+  force = true
