@@ -1,5 +1,24 @@
 [[redirects]]
-  from = "calvinallen.net/*"
+  from = "http://www.calvinallen.net/*"
   to = "https://www.codingwithcalvin.net/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "https://www.calvinallen.net/*"
+  to = "https://www.codingwithcalvin.net/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://calvinallen.net/*"
+  to = "https://www.codingwithcalvin.net/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://calvinallen.net/*"
+  to = "https://www.codingwithcalvin.net/:splat"
+  status = 301
+  force = true
+
