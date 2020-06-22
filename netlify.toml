@@ -24,7 +24,7 @@
 
 [[redirects]]
   from = "https://www.codingwithcalvin.net/docker-containers-and-my-adventures-in-tagging"
-  to = "https://www.codingwithcalvin.net/docker-containers-and-my-adventures-in-versioning-and-tagging/"
+  to = "https://www.codingwithcalvin.net/docker-containers-and-my-adventures-in-versioning-and-tagging"
   status = 301
   force = true
 
@@ -34,8 +34,8 @@
   status = 301
   force = true
 
-  [[redirects]]
-  from = "https://www.codingwithcalvin.net/contact"
-  to = "https://www.codingwithcalvin.net/404"
+[[redirects]]
+  from = "https://www.codingwithcalvin.net/archive/2017/12/24/live-unit-testing-in-visual-studio-2017"
+  to = "https://www.codingwithcalvin.net/live-unit-testing-in-visual-studio-2017"
   status = 301
   force = true
