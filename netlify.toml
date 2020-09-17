@@ -39,3 +39,33 @@
   to = "https://www.codingwithcalvin.net/live-unit-testing-in-visual-studio-2017"
   status = 301
   force = true
+  
+[[redirects]]
+  from = "https://live.codingwithcalvin.net"
+  to = "https://www.twitch.tv/codingwithcalvintv"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://twitch.codingwithcalvin.net"
+  to = "https://www.twitch.tv/codingwithcalvintv"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://archive.codingwithcalvin.net"
+  to = "https://www.youtube.com/channel/UCeh4DkPs0xLeaoDnmsGu0Og"
+  status = 301
+  force = true  
+  
+[[redirects]]
+  from = "https://archives.codingwithcalvin.net"
+  to = "https://www.youtube.com/channel/UCeh4DkPs0xLeaoDnmsGu0Og"
+  status = 301
+  force = true    
+  
+[[redirects]]
+  from = "https://youtube.codingwithcalvin.net"
+  to = "https://www.youtube.com/channel/UCeh4DkPs0xLeaoDnmsGu0Og"
+  status = 301
+  force = true      
