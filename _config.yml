@@ -9,13 +9,12 @@ subtitle: My Digital Mind
 lang: en
 timezone: America/New_York
 
-rss_url: https://luv2.dev/rss
+rss_url: https://www.codingwithcalvin.net/rss
 gravatar_url: https://gravatar.com/avatar/a1c6325a95a54f6321b05edb40490f57
-linkedin_url: https://luv2.dev/linkedin
-github_url: https://luv2.dev/github
+linkedin_url: https://www.linkedin.com/in/calvin-allen/
+github_url: https://github.com/CalvinAllen
 github_repo_url: https://github.com/calvinallen/codingwithcalvin.net
-stackoverflow_url: https://luv2.dev/stackoverflow
-twitter_url: https://luv2.dev/twitter
+twitter_url: https://www.twitter.com/_CalvinAllen
 
 # Disqus Comments
 disqus_short_name: calvinallen

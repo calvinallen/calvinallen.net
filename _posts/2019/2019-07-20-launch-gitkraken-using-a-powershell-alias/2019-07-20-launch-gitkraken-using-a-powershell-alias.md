@@ -33,5 +33,3 @@ Adding the code block above into your PowerShell profile - (traditional OR core 
 Also, if you use [VSCode](https://code.visualstudio.com/), and have your terminal set to PowerShell, you can also launch it from there, since that also picks up your profile configuration - and here is an animated gif of that in action: (inception!)
 
 [![POSH Kraken in Action](posh-kraken-thumbnail.gif)](posh-kraken.gif "click here for larger version")
-
-[If you want to give GitKraken a try, do me a favor and sign up for trial using my referral code :)](https://luv2.dev/gitkraken)
