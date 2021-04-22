@@ -9,7 +9,7 @@ subtitle: My Digital Mind
 lang: en
 timezone: America/New_York
 
-rss_url: https://www.codingwithcalvin.net/rss
+rss_url: https://www.codingwithcalvin.net/atom.xml
 gravatar_url: https://gravatar.com/avatar/a1c6325a95a54f6321b05edb40490f57
 linkedin_url: https://www.linkedin.com/in/calvin-allen/
 github_url: https://github.com/CalvinAllen
