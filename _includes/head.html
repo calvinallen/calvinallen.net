@@ -40,7 +40,6 @@
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="628" />
 	<meta property="og:image:type" content="image/png" />
-	<meta property="fb:app_id" content="2137237369891084" />
 
 	{% if page.title %}
 		<meta property="og:type" content="article" />
@@ -56,10 +55,16 @@
 
 	{% if page.image and cover_image_exists == "true" %}
 		<meta property="og:image" content="{{ site.url }}{{ page.url }}{{ page.image }}" />
+        <meta property="og:image:url"  content="{{ site.url }}{{ page.url }}{{ page.image }}"  />
+        <meta property="twitter:image" content="{{ site.url }}{{ page.url }}{{ page.image }}"  />        
 	{% elsif page.image_alt and alt_cover_image_exists == "true" %}
 		<meta property="og:image" content="{{ site.url }}{{ page.url }}{{ page.image_alt }}" />
+        <meta property="og:image:url"  content="{{ site.url }}{{ page.url }}{{ page.image_alt }}"  />
+        <meta property="twitter:image" content="{{ site.url }}{{ page.url }}{{ page.image_alt }}"  />
 	{% else %}
 		<meta property="og:image" content="{{ site.url }}/images/social/headshot-cover.png" />
+        <meta property="og:image:url"  content="{{ site.url }}/images/social/headshot-cover.png"  />
+        <meta property="twitter:image" content="{{ site.url }}/images/social/headshot-cover.png"  />        
 	{% endif %}
 
 	{% if page.description %}
